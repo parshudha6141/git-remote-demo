@@ -1,0 +1,16 @@
+# Student details
+students = [
+    {"name": "Rahul", "math": 78, "science": 88, "english": 90},
+    {"name": "Priya", "math": 92, "science": 81, "english": 85},
+    {"name": "Arjun", "math": 65, "science": 70, "english": 72},
+    {"name": "Sara", "math": 88, "science": 95, "english": 91}
+]
+
+# Print data and calculate average marks for each student
+for student in students:
+    total = student["math"] + student["science"] + student["english"]
+    average = total / 3
+    print(f"Name: {student['name']}")
+    print(f"Marks -> Math: {student['math']}, Science: {student['science']}, English: {student['english']}")
+    print(f"Total: {total}, Average: {average:.2f}")
+    print("---------------------------")
