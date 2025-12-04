@@ -1,2 +1,2 @@
-This is my first local change
-local edit
+This is a new change from VS Code.
+
